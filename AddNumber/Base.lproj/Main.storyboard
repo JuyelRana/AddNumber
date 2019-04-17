@@ -18,25 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Number" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="udt-72-fQp">
-                                <rect key="frame" x="89" y="158" width="235" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Number" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="udt-72-fQp">
+                                <rect key="frame" x="45" y="89" width="324" height="35"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Second Number" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c6y-6q-Hyn">
-                                <rect key="frame" x="89" y="235" width="235" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Second Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c6y-6q-Hyn">
+                                <rect key="frame" x="45" y="169" width="324" height="35"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNa-LX-tIm">
-                                <rect key="frame" x="89" y="311" width="235" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNa-LX-tIm">
+                                <rect key="frame" x="45" y="249" width="324" height="42"/>
                                 <color key="backgroundColor" red="0.66666668650000005" green="0.28233536650000002" blue="0.54425159059999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Add">
@@ -47,19 +44,43 @@
                                     <action selector="btnAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="neC-E8-hbR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLt-0N-9jw">
-                                <rect key="frame" x="89" y="392" width="235" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLt-0N-9jw">
+                                <rect key="frame" x="45" y="336" width="324" height="30"/>
                                 <color key="backgroundColor" red="0.66666668650000005" green="0.28233536650000002" blue="0.54425159059999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hKq-Sg-zfg">
+                                <rect key="frame" x="183" y="432" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.94619840383529663" green="0.27362820506095886" blue="0.52360481023788452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.66666668650000005" green="0.28233536650000002" blue="0.54425159059999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="actionSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="Eog-bM-FFi"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c6y-6q-Hyn" firstAttribute="top" secondItem="udt-72-fQp" secondAttribute="bottom" constant="45" id="1S6-6L-FvU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aLt-0N-9jw" secondAttribute="trailing" constant="45" id="EnU-Ej-jRo"/>
+                            <constraint firstItem="GNa-LX-tIm" firstAttribute="top" secondItem="c6y-6q-Hyn" secondAttribute="bottom" constant="45" id="KA7-lP-cNk"/>
+                            <constraint firstItem="aLt-0N-9jw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="L7t-BW-sZA"/>
+                            <constraint firstItem="udt-72-fQp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="WwW-Bs-gcE"/>
+                            <constraint firstItem="udt-72-fQp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="bez-wQ-1m9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="udt-72-fQp" secondAttribute="trailing" constant="45" id="e8F-or-fYe"/>
+                            <constraint firstItem="aLt-0N-9jw" firstAttribute="top" secondItem="GNa-LX-tIm" secondAttribute="bottom" constant="45" id="nYU-m3-ysl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c6y-6q-Hyn" secondAttribute="trailing" constant="45" id="qmT-SZ-P3c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GNa-LX-tIm" secondAttribute="trailing" constant="45" id="uxr-0k-pyv"/>
+                            <constraint firstItem="GNa-LX-tIm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="vA1-tS-YoR"/>
+                            <constraint firstItem="c6y-6q-Hyn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="zOo-c9-dbt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="action" destination="hKq-Sg-zfg" id="VId-ad-vRO"/>
                         <outlet property="num1" destination="udt-72-fQp" id="mfQ-ak-Kpp"/>
                         <outlet property="num2" destination="c6y-6q-Hyn" id="x4L-xs-hxI"/>
                         <outlet property="output" destination="aLt-0N-9jw" id="4Ad-CP-6ih"/>
