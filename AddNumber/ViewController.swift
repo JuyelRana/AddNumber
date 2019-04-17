@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var num1: UITextField!
+    @IBOutlet weak var num2: UITextField!
+    
+    @IBOutlet weak var output: UILabel!
+    
+    @IBAction func btnAdd(_ sender: Any) {
+        let a = Int(num1.text!)
+        let b = Int(num2.text!)
+        
+        output.text = "\(a!+b!)" 
+        
     }
-
-
 }
 
